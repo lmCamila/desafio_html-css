@@ -1,18 +1,167 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Assistant|Roboto');
+body{
+    font-family: 'Assistant', sans-serif;
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url("../images/background.jpg");
+}
 #menu{
     display: flex;
-    background-color: #2A8CFD;
+    position: fixed;
+    background-color:#0B0B3B;
     width: 100%;
-    height: 20%;
+    height: 8%;
+    justify-content: space-between;
+    margin: -8px -4px 0px -7px; 
 }
 #menu ul{
-    display:  flex;
+    display: flex;
     list-style: none;
     justify-content: space-between;
     flex-flow: row wrap;
-    width: 20%;
+    
 }
 #menu ul li{
-    align-content: space-between;
+    margin:10px;
 }
+#menu ul li a{
+    text-decoration: none;
+    margin:10px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.disable{
+    color: #6E6E6E;
+    transition: 1s color;
+}
+.active{
+    color: #FFFFFF;
+}
+.disable:hover{
+    color: #FFFFFF;
+}
+#contacts{
+    background-size: 100%;
+    padding: 3% 0% 0% 0%;
+    margin: 8px -7px 15px -7px; 
+    
+}
+#list{
+    width: 50%;
+    background: rgba(255,255,255,0.8);
+    margin: 0% 25% 0% 25%;
+    box-shadow: rgba(10, 10, 10, 0.7);
+    bottom: 20%;
+}
+.contact{
+    display: flex;
+    flex-flow: row wrap;
+    height: 3%;
+    padding: 15px;
+    border-bottom: 1px solid rgba(7, 7, 7, 0.192);
+}
+.contact img{
+    float: left;
+    padding: 10px;
+    width: 85px;
+}
+.contact h3{
+    margin-top: 0px;
+    padding-left: 0%;
+}
+.fav{
+    float: right;
+    margin-right: 0%;
+}
+.list-d{
+    float: right ;
+    margin-top: 0px;
+    padding-right: 2.5%;
+    margin: 0%;
+}
+.list-e{
+    float: left;
+    margin-top: -1%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+.list-d p{
+    margin-top: -15px;
+}
+.list-e p{
+    margin-top: -15px;
+}
+#pagination{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#pagination ul{
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+}
+#pagination ul li{
+    margin: 1px 4px 4px 1px;
+    padding: 7px;
+}
+
+#new-contact{
+    display: flex;
+    padding-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    background: rgba(255,255,255,0.7);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.input-contact input ,textarea{
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    padding:4px;
+}
+.radio{
+    width: 30px;
+}
+#btn-enviar {
+   display: flex;
+   justify-content: flex-end;
+}
+#btn-enviar input{
+    padding:10px;
+    background: rgba(31, 38, 100, 0.8);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1%;
+    transition: .5s background;
+}
+
+#btn-enviar input:hover{
+    background: rgba(14, 18, 51, 0.87);
+}
+
+#btn-search{
+    border:none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.8);
+}
+#btn-search:hover{
+    background: rgba(135, 136, 139, 0.8)
+}
+.search{
+    display: flex;
+    padding-top:2%;
+    margin:10px;
+}
+.search input{
+    border: none;
+    border-radius: 10px; 
+    padding:1%;
+    background:rgba(255,255,255,0.7);
+}
+/*
+Limite para desregular contatos= 1112
+Forms = 870px
+*/
