@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Adicionar Contato</title>
+    <title>Editar Contato</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 
@@ -32,29 +32,29 @@
     <section>
         <div id="new-contact">
             <form action="#">
-                <h1>Novo contato</h1>
+                <h1>Editar contato</h1>
                 <div>
                     <label for="firstName">Nome:</label>
                     <div class="input-contact">
-                        <input type="text" name="firstName" />
+                        <input type="text" name="firstName" value="Nome"/>
                     </div>
                 </div>
                 <div>
                     <label for="lastName">Sobrenome:</label>
                     <div class="input-contact">
-                        <input type="text" name="lastName" />
+                        <input type="text" name="lastName" value="+ Sobrenome" />
                     </div>
                 </div>
                 <div>
                     <label for="email">Email:</label>
                     <div class="input-contact">
-                        <input type="email" name="email" />
+                        <input type="email" name="email" value="teste@teste.com" />
                     </div>
                 </div>
                 <div>
                     <label for="gender">Genero:</label>
                     <div>
-                        <input class="radio" type="radio" name="gender" value="m" id="cMasc" /><label for="cMasc">Masculino</label>
+                        <input class="radio" type="radio" name="gender" value="m" id="cMasc" checked/><label for="cMasc">Masculino</label>
                         <input class="radio" type="radio" name="gender" value="f" id="cFem" /><label for="cFem">Feminino</label>
                     </div>
                 </div>
@@ -67,19 +67,19 @@
                 <div>
                     <label for="company">Empresa:</label>
                     <div class="input-contact">
-                        <input type="text" name="company" />
+                        <input type="text" name="company" value="Silva - Franco"/>
                     </div>
                 </div>
                 <div>
                     <label for="address">Endereço:</label>
                     <div class="input-contact">
-                        <input type="text" name="address" />
+                        <input type="text" name="address" value="4974 Pedro Travessa" />
                     </div>
                 </div>
                 <div>
                     <label for="phone">Telefone:</label>
                     <div class="input-contact">
-                        <input type="tel" name="phone" />
+                        <input type="tel" name="phone" value="(23) 9147-2363"/>
                     </div>
                 </div>
                 <div>
