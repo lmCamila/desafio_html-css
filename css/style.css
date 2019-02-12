@@ -84,7 +84,7 @@ body{
 }
 #contacts{
     background-size: 100%;
-    padding: 3% 0% 0% 0%;
+    padding: 4% 0% 0% 0%;
     margin: 8px -7px 15px -7px; 
     
 }
@@ -191,7 +191,8 @@ body{
 }
 .search input{
     border: none;
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 300px;
     padding:1%;
     background:rgba(255,255,255,0.7);
 }
@@ -282,4 +283,7 @@ footer:hover{
         margin-top:-15%;
         margin-left: 65%;
     }
+}
+.id{
+    display: none;
 }
