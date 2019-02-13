@@ -321,7 +321,7 @@ footer:hover{
         margin-left:-40%;
     }
 }
-@media screen and (min-height:730px){
+@media screen and (max-height:730px){
     .search{
         display: flex;
         padding:1% 2% 0% 0%;
