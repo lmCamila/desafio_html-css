@@ -55,6 +55,7 @@ body{
         height: 10%;
         justify-content: flex-start;
         margin: -8px -4px 0px -7px; 
+        cursor: pointer;
     }
     .menu-dropdown img{
         width: 30px;
@@ -162,6 +163,7 @@ body{
     border: none;
     border-radius: 10px;
     margin-top: 1%;
+    cursor: pointer;
     transition: .5s background-color;
 }
 #btn-submit input:hover{
@@ -189,6 +191,7 @@ body{
     border:none;
     border-radius: 10px;
     background: rgba(255,255,255,0.8);
+    cursor: pointer;
 }
 #btn-search:hover{
     background: rgba(135, 136, 139, 0.8)
@@ -227,6 +230,7 @@ footer:hover{
     border-radius: 50%;
     background-color:rgba(255, 255, 255, 0.664);
     box-shadow:0px 4px 8px 0px rgba(7, 7, 7, 0.192);
+    cursor: pointer;
     transition: 1s background-color;
 }
 .btn-edit-exclude img{
